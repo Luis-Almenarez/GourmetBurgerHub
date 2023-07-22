@@ -172,11 +172,133 @@ body {
     margin: 3rem;
   }
 }
-/************ESTILOS SECCIÓN PRODUCTOS***************/
-.main {
+/************INICIO ESTILOS SECCIÓN PRODUCTOS***************/
+.main__products {
   background-color: var(--light);
+  font-family: var(--font-secundaria);
 }
-/************ESTILOS SECCIÓN PRODUCTOS***************/
+
+.main__title h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 4rem;
+  text-transform: uppercase;
+  color: var(--color-principal);
+  font-family: var(--font-principal);
+}
+
+.container__products {
+  padding: 1rem;
+  gap: 5rem;
+}
+
+.cards {
+  border-radius: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.burger {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../img/magicStack.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  height: 40vh;
+  transition: all 300ms;
+}
+
+.hot__dog {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/doglicioso.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  height: 40vh;
+  transition: all 300ms;
+}
+
+.vegan_burger {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/veganBurger.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  height: 40vh;
+  transition: all 300ms;
+}
+
+.itali_burger {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hamburguesaItaliana.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  height: 40vh;
+  transition: all 300ms;
+}
+
+.sandwich {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sandwichVegan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  height: 40vh;
+  transition: all 300ms;
+}
+
+.enable,
+.enable_dog,
+.enable_vegan,
+.enable_itali,
+.enable_sandwich {
+  height: 70vh;
+}
+
+.burger p,
+.hot__dog p,
+.vegan_burger p,
+.itali_burger p,
+.sandwich p {
+  display: none;
+}
+
+.enable p,
+.enable_dog p,
+.enable_vegan p,
+.enable_itali p,
+.enable_sandwich p {
+  display: block;
+  font-weight: bold;
+}
+
+.cards__text {
+  color: var(--light);
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.cards__text h3 {
+  font-size: 2.5rem;
+  color: var(--light-gold);
+}
+
+.cards__btn {
+  border: none;
+  background-color: var(--light);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: var(--black);
+  transition: all 300ms;
+  text-transform: uppercase;
+}
+
+.cards__btn:hover {
+  background-color: var(--color-principal);
+  color: var(--light);
+  cursor: pointer;
+}
+/************ FIN ESTILOS SECCIÓN PRODUCTOS***************/
 
 /************* ESTILOS FOOTER ****************/
 
