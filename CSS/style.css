@@ -173,7 +173,8 @@ body {
   }
 }
 /************INICIO ESTILOS SECCIÓN PRODUCTOS***************/
-.main__products {
+.main__products,
+.main__promos {
   background-color: var(--light);
   font-family: var(--font-secundaria);
 }
@@ -305,6 +306,72 @@ body {
   }
 }
 /************ FIN ESTILOS SECCIÓN PRODUCTOS***************/
+
+/*************INICIO SECCIÓN PROMOCIONES******************/
+
+.promos h3 {
+  font-size: 4rem;
+  color: var(--color-principal);
+  font-family: var(--font-principal);
+  text-transform: uppercase;
+  padding: 3rem;
+  font-weight: bold;
+}
+
+.container__cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+.card__promo1 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  display: grid;
+  width: 50%;
+  border-radius: 2rem;
+  background-color: var(--color-secundario);
+  align-items: center;
+  justify-content: center;
+}
+
+.card__promo1 img {
+  width: 80%;
+}
+
+.card__promo2 {
+  display: grid;
+  grid-column: 4/6;
+  grid-row: 1/2;
+
+  width: 50%;
+  border-radius: 2rem;
+  background-color: var(--color-secundario);
+  align-items: center;
+  justify-content: center;
+}
+
+.card__promo2 img {
+  width: 80%;
+}
+
+.card__promo3 {
+  display: grid;
+  grid-column: 3/5;
+  grid-row: 2/4;
+  width: 50%;
+  border-radius: 2rem;
+  background-color: var(--color-secundario);
+  align-items: center;
+  justify-content: center;
+}
+
+.card__promo3 img {
+  width: 80%;
+}
+
+/*************INICIO SECCIÓN PROMOCIONES******************/
 
 /************* ESTILOS FOOTER ****************/
 
