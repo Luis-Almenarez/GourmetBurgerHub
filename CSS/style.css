@@ -298,6 +298,12 @@ body {
   color: var(--light);
   cursor: pointer;
 }
+
+@media (max-width: 400px) {
+  .main__title h2 {
+    font-size: 2.5rem;
+  }
+}
 /************ FIN ESTILOS SECCIÓN PRODUCTOS***************/
 
 /************* ESTILOS FOOTER ****************/
