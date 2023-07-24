@@ -1,12 +1,12 @@
-# Gourmet Burger Hub: Landing Page de Hamburguesas, Hotdogs y más.
+# Gourmet Burger Hub.
 
 Esta es una landing page de comidas rápidas, diseñada para mostrar diferentes opciones de hamburguesas, hotdogs y otros platos apetitosos.
 
 ## Tecnologías Utilizadas
 
-![HTML](https://img.shields.io/badge/HTML-5E8CE4?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML-ff4500?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-2965f1?style=flat&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952b3?style=flat&logo=bootstrap&logoColor=white)
 
 ## Características Destacadas
 
@@ -22,8 +22,7 @@ Puedes ver una vista previa en vivo de la landing page [aquí](https://ejemplo.c
 
 ## Autor
 
-Luis Almenarez.
+**Luis Almenarez**
 
-## Licencia
+* [Linkedin] (www.linkedin.com/in/luis-almenarez)
 
-Este proyecto está bajo la Licencia [Nombre de la Licencia] - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
