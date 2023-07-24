@@ -13,7 +13,7 @@ Esta es una landing page de comidas rápidas, diseñada para mostrar diferentes 
 **Luis Almenarez**
 
 * [Linkedin](www.linkedin.com/in/luis-almenarez)
-* [Email](luisalmenarez0428@gmail.com)
+* [Facebook](https://web.facebook.com/Luis.Carlos.AlmenarezAP)
 
 ## Características Destacadas
 
@@ -24,8 +24,8 @@ Esta es una landing page de comidas rápidas, diseñada para mostrar diferentes 
 
 Puedes ver una vista previa en vivo de la landing page [aquí](https://ejemplo.com).
 
-![Inicio Gourmet Burger Hub](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/788c1c72-db04-4055-b4e6-4bb2f5f507df)
-![Sección Productos](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/759518bd-f339-4eec-9060-43c76d046968)
+![Inicio](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/53b3a8f6-b07a-4fac-922f-a99f9f8006a5)
+![Productos](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/5c0e0d4d-d477-41f0-8ac5-0caa9e5a15d7)
 
 
 
