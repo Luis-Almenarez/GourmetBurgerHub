@@ -24,5 +24,5 @@ Puedes ver una vista previa en vivo de la landing page [aquí](https://ejemplo.c
 
 **Luis Almenarez**
 
-* [Linkedin] (www.linkedin.com/in/luis-almenarez)
+* [Linkedin](www.linkedin.com/in/luis-almenarez)
 
