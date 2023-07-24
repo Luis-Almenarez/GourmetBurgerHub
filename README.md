@@ -22,7 +22,9 @@ Esta es una landing page de comidas rápidas, diseñada para mostrar diferentes 
 
 ## Vista Previa
 
-Puedes ver una vista previa en vivo de la landing page [aquí](https://ejemplo.com).
+Puedes ver una vista previa en vivo de la landing page [aquí](https://gourmetburgerhub.netlify.app/).
+
+<hr>
 
 ![Inicio](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/53b3a8f6-b07a-4fac-922f-a99f9f8006a5)
 ![Productos](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/5c0e0d4d-d477-41f0-8ac5-0caa9e5a15d7)
