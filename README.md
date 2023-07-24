@@ -26,8 +26,9 @@ Puedes ver una vista previa en vivo de la landing page [aquí](https://gourmetbu
 
 <hr>
 
-![Inicio](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/53b3a8f6-b07a-4fac-922f-a99f9f8006a5)
-![Productos](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/5c0e0d4d-d477-41f0-8ac5-0caa9e5a15d7)
+![Inicio](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/c8b8236c-d5c9-4e38-96a8-2979b1c474b2)
+<hr>
+![Productos](https://github.com/Luis-Almenarez/PreEntrega2_Luis-Almenarez/assets/125621759/e7a49603-f64c-463e-9bce-ce105e68ccb3)
 
 
 
