@@ -447,6 +447,7 @@ body {
 
 /**************INICIO SECCIÓN NOSOTROS********************/
 .main__about {
+  background-color: var(--light);
   height: 90vh;
 }
 
