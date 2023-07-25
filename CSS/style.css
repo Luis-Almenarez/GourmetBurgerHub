@@ -90,7 +90,7 @@ body {
   color: var(--color-principal);
   background-color: var(--light);
   border-color: var(--light-strong);
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
   width: 15%;
   padding: 1.5rem;
@@ -101,6 +101,13 @@ body {
   background-color: var(--color-principal);
   border-color: var(--color-principal);
   color: var(--light);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 2rem;
+    width: 30%;
+  }
 }
 
 @media (max-width: 575px) {
