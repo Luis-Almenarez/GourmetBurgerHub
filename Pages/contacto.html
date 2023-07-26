@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Gourmet Burger Hub</title>
+  </head>
+  <body>
+    <!--  INICIO LOGO Y BARRA DE NAVEGACIÓN -->
+    <header class="header">
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="ms-5" src="../img/logo.png" alt="Logo Burger Web" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav align-items-end gap-3">
+              <a class="nav-link fw-bold fs-4" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link fw-bold fs-4" href="../Pages/productos.html">Productos</a>
+              <a class="nav-link fw-bold fs-4" href="../Pages/promociones.html">Promociones</a>
+              <a class="nav-link fw-bold fs-4" href="../Pages/nosotros.html">Nosotros</a>
+              <a class="nav-link fw-bold fs-4 active" href="../Pages/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN LOGO Y BARRA DE NAVEGACIÓN -->
 
+    <!-- SECCIÓN CONTACTO -->
+    <main class="main__form">
+      <div class="main__form--title">
+        <h2>Si no quieres perderte de ninguna de nuestras ofertas y promociones...</h2>
+      </div>
+      <div class="email__subscription d-flex justify-content-center align-items-center">
+        <label for="email">Déjanos tu correo aquí:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" />
+        <button type="submit">Suscribirse</button>
+      </div>
+      <div class="contact">
+        <h3>¿Quieres ser parte de nuestra familia?</h3>
+        <h3>Contáctanos</h3>
+        <form class="form">
+          <input type="text" placeholder="Nombres" class="contac__name" />
+          <select name="" id="" class="contac__dep">
+            <option value="">Departamento</option>
+            <option value="">Antioquia</option>
+            <option value="">Boyacá</option>
+            <option value="">Caldas</option>
+            <option value="">Cundinamarca</option>
+            <option value="">Huila</option>
+            <option value="">Norte de Santander</option>
+            <option value="">Quindío</option>
+            <option value="">Risaralda</option>
+          </select>
+          <input type="text" placeholder="Teléfono" class="contac__tel" />
+          <select name="" id="" class="contac__city">
+            <option value="">Ciudad</option>
+            <option value="">Medellín</option>
+            <option value="">Tunja</option>
+            <option value="">Manizales</option>
+            <option value="">Bogotá</option>
+            <option value="">Neiva</option>
+            <option value="">Cúcuta</option>
+            <option value="">Armenia</option>
+            <option value="">Pereira</option>
+          </select>
+          <input type="email" placeholder="Correo Electrónico" class="contact__email" />
+          <textarea name="" id="" cols="10" rows="5" class="contacto__msj" placeholder="Mensaje"></textarea>
+          <input type="submit" value="Enviar" class="contacto__submit" />
+        </form>
+      </div>
+    </main>
+    <!-- SECCIÓN CONTACTO -->
+
+    <!-- INICIO FOOTER -->
+    <footer class="footer d-flex align-items-center justify-content-around w-100">
+      <div class="footer__copy d-flex align-items-center">
+        <p>
+          Copyright &copy; 2023.
+          <a href="https://github.com/Luis-Almenarez" target="_blank">Luis Almenarez</a>
+          | Todos los derechos reservados
+        </p>
+      </div>
+      <div class="footer__social d-flex align-items-center">
+        <a href="https://www.facebook.com/Luis.Carlos.AlmenarezAP" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/luis_carlos_ap/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/Luis-Almenarez" target="_blank"><i class="bi bi-tiktok"></i></a>
+        <a href="https://twitter.com/Almeis_Dev" target="_blank"><i class="bi bi-twitter"></i></a>
+      </div>
+    </footer>
+    <!-- FIN FOOTER -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
