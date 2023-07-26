@@ -200,6 +200,7 @@ body {
   text-transform: uppercase;
   color: var(--color-principal);
   font-family: var(--font-principal);
+  text-align: center;
 }
 
 .container__products {
