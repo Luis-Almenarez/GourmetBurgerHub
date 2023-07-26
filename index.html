@@ -4,13 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
+    <link rel="prefetch" href="./Pages/productos.html" as="document" />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      crossorigin="crossorigin"
+      as="style"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      crossorigin="crossorigin"
+      as="style"
+    />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <link rel="preload" href="./CSS/style.css" as="style" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Gourmet Burger Hub</title>
   </head>
@@ -64,17 +79,17 @@
         </div>
         <div class="container__cards d-flex justify-content-center gap-5 p-5">
           <div class="card d-flex flex-column align-items-center">
-            <img class="m-5" src="./img/producto.jpg" alt="Img Hamburguesas 2x1" />
+            <img loading="lazy" class="m-5" src="./img/producto.jpg" alt="Img Hamburguesas 2x1" />
             <h3 class="text-center">Best Burger</h3>
             <p class="fs-3 text-center p-5">Integer vitae volutpat leo. Nullam maximus eget diam vitae consequat.</p>
           </div>
           <div class="card d-flex flex-column align-items-center">
-            <img class="m-5" src="./img/producto2.jpg" alt="Img Hot Dog" />
+            <img loading="lazy" class="m-5" src="./img/producto2.jpg" alt="Img Hot Dog" />
             <h3 class="text-center">Hot Dog Especial</h3>
             <p class="fs-3 text-center p-5">Integer vitae volutpat leo. Nullam maximus eget diam vitae consequat.</p>
           </div>
           <div class="card d-flex flex-column align-items-center">
-            <img class="m-5" src="./img/producto3.jpg" alt="Img Hamburguesa Especial" />
+            <img loading="lazy" class="m-5" src="./img/producto3.jpg" alt="Img Hamburguesa Especial" />
             <h3 class="text-center">Burger Especial</h3>
             <p class="fs-3 text-center p-5">Integer vitae volutpat leo. Nullam maximus eget diam vitae consequat.</p>
           </div>
