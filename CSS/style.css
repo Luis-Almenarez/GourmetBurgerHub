@@ -39,6 +39,13 @@ html {
 body {
   font-family: var(--font-principal);
 }
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /******************ESTILOS GENERALES*******************/
 
 /*************ESTILOS HEADER******************/
