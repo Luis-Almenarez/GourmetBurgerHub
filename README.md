@@ -6,6 +6,7 @@ Esta es una landing page de comidas rápidas, diseñada para mostrar diferentes 
 
 ![HTML](https://img.shields.io/badge/-HTML-ff4500?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS-2965f1?style=flat&logo=css3&logoColor=white)
+![SCSS Badge](https://img.shields.io/badge/-SCSS-CC6699?style=flat&logo=sass&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952b3?style=flat&logo=bootstrap&logoColor=white)
 
 ## Autor
