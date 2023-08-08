@@ -1,0 +1,127 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as mx;
+
+/**************************INICIO HERO*******************************/
+.hero {
+  height: 85vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../src/img/index/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    color: v.$color-principal;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+
+    @include mx.small-tablet {
+      font-size: 3rem;
+    }
+  }
+
+  p {
+    width: 70%;
+    color: v.$light;
+    font-size: 3rem;
+    text-align: center;
+    font-family: v.$font-secundaria;
+
+    @include mx.small-tablet {
+      font-family: var(--font-secundaria);
+      font-size: 2rem;
+    }
+  }
+
+  .hero__text {
+    height: 60vh;
+    align-content: space-between;
+
+    @include mx.small-tablet {
+      height: 60vh;
+      align-content: space-between;
+    }
+  }
+
+  .btn {
+    color: v.$color-principal;
+    background-color: v.$light;
+    border-color: v.$light-strong;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    width: 15%;
+    padding: 1.5rem;
+    transition: all 500ms;
+
+    @include mx.small-tablet {
+      font-size: 1.5rem;
+      width: 25%;
+    }
+  }
+
+  .btn:hover {
+    background-color: v.$color-principal;
+    border-color: v.$color-principal;
+    color: v.$light;
+  }
+  @include mx.tablet {
+    .btn {
+      font-size: 2rem;
+      width: 30%;
+    }
+  }
+}
+/**************************FIN HERO*******************************/
+
+/**********************INICIO BEST SELLERS***************************/
+.products {
+  background-color: v.$color-principal;
+
+  .products__title {
+    padding: 5rem;
+    color: v.$light;
+
+    h2 {
+      font-size: 4rem;
+    }
+  }
+}
+
+.card {
+  width: 30%;
+  border-radius: 2rem;
+  background-color: v.$light;
+
+  img {
+    width: 60%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    margin: 2rem;
+  }
+
+  h3 {
+    color: v.$color-principal;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-family: v.$font-secundaria;
+  }
+}
+
+@include mx.tablet {
+  .container__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 80%;
+
+    img {
+      width: 80%;
+      margin: 3rem;
+    }
+  }
+}
+/**********************FIN BEST SELLERS***************************/

@@ -1,0 +1,55 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as mx;
+
+.footer {
+  background-color: v.$dark;
+  height: 25vh;
+}
+
+.footer__copy {
+  color: v.$light;
+  font-size: 1.5rem;
+  font-family: v.$font-secundaria;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--light);
+    transition: all 300ms;
+
+    &:hover {
+      color: v.$color-principal;
+    }
+  }
+}
+
+.footer__social {
+  gap: 2rem;
+
+  a {
+    color: v.$light;
+    font-size: 2rem;
+    transition: all 500ms;
+
+    &:hover {
+      color: v.$color-principal;
+      scale: 1.3;
+    }
+  }
+}
+
+@include mx.tablet {
+  .footer {
+    flex-direction: column;
+  }
+  .footer__copy {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .footer__copy p {
+    margin-top: 5rem;
+  }
+}
