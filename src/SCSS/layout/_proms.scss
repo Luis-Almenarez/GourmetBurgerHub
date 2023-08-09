@@ -1,0 +1,128 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as mx;
+
+.main__promos {
+  background-color: v.$light;
+}
+
+.promos {
+  h3 {
+    font-size: 3.5rem;
+    color: v.$color-principal;
+    font-family: v.$font-principal;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: v.$font-secundaria;
+    width: 50%;
+    @include mx.tablet {
+      width: 90%;
+    }
+  }
+}
+
+.container__cards {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+
+  @include mx.tablet {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .card__promo1 {
+    display: grid;
+    width: 60%;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    place-items: center;
+    background-color: v.$light-strong;
+    @include mx.tablet {
+      width: 90%;
+      grid-column: 1/7;
+      grid-row: 1/2;
+    }
+  }
+
+  .card__promo2 {
+    display: grid;
+    width: 60%;
+    grid-column: 4/8;
+    grid-row: 1/2;
+    place-items: center;
+    background-color: v.$light-strong;
+    @include mx.tablet {
+      width: 90%;
+      grid-column: 1/7;
+      grid-row: 2/2;
+    }
+  }
+
+  h4 {
+    font-family: v.$font-principal;
+    color: v.$color-principal;
+  }
+
+  img {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+  }
+}
+
+.card__promo3 {
+  display: grid;
+  grid-column: 1/8;
+  grid-row: 2/4;
+  place-items: center;
+  width: 80%;
+  background-color: v.$light-strong;
+  @include mx.tablet {
+    width: 100%;
+    grid-column: 1/8;
+    grid-row: 3/4;
+  }
+
+  h4 {
+    font-family: v.$font-principal;
+    color: v.$color-principal;
+  }
+}
+
+.carousel {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+
+  h5 {
+    font-family: v.$font-principal;
+    color: v.$light-gold;
+  }
+
+  p {
+    font-family: v.$font-secundaria;
+  }
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: v.$black;
+  opacity: 0.5;
+  border-radius: 0.5rem;
+}
+.promo__btn {
+  border: none;
+  background-color: v.$light;
+  transition: all 400ms;
+}
+
+.promo__btn:hover {
+  color: v.$light;
+  background-color: v.$color-principal;
+}
