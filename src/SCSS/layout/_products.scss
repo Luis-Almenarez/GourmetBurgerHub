@@ -1,0 +1,102 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as mx;
+
+.main__products {
+  background-color: v.$light;
+  font-family: v.$font-secundaria;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 4rem;
+    text-transform: uppercase;
+    color: v.$color-principal;
+    font-family: v.$font-principal;
+    text-align: center;
+    @include mx.phone {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.container__products {
+  padding: 1rem;
+  gap: 5rem;
+
+  .cards {
+    border-radius: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.burger {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../src/img/products/magicStack.jpg");
+  @include mx.cardProduct;
+}
+
+.hot__dog {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/img/products/doglicioso.jpg");
+  @include mx.cardProduct;
+}
+
+.vegan_burger {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/img/products/veganBurger.jpg");
+  @include mx.cardProduct;
+}
+
+.itali_burger {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/img/products/hamburguesaItaliana.jpg");
+  @include mx.cardProduct;
+}
+
+.sandwich {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/img/products/sandwichVegan.jpg");
+  @include mx.cardProduct;
+}
+
+.burger p,
+.hot__dog p,
+.vegan_burger p,
+.itali_burger p,
+.sandwich p {
+  display: none;
+}
+
+.enable,
+.enable_dog,
+.enable_vegan,
+.enable_itali,
+.enable_sandwich {
+  height: 75vh;
+
+  p {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+.cards__text {
+  color: v.$light;
+  gap: 1rem;
+  flex-grow: 1;
+
+  h3 {
+    font-size: 2.5rem;
+    color: v.$light-gold;
+  }
+}
+
+.cards__btn {
+  border: none;
+  background-color: v.$light;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: v.$black;
+  transition: all 300ms;
+  text-transform: uppercase;
+}
+
+.cards__btn:hover {
+  background-color: v.$color-principal;
+  color: v.$light;
+  cursor: pointer;
+}
