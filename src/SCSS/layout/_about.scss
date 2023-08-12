@@ -1,0 +1,62 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as mx;
+
+.main__about {
+  background-color: v.$light;
+  height: 90vh;
+  @include mx.tablet {
+    @include mx.flexColumn;
+  }
+
+  .about__text {
+    width: 50%;
+    @include mx.flexColumn;
+    @include mx.tablet {
+      width: 60%;
+    }
+
+    h2 {
+      color: v.$color-principal;
+      font-size: 3rem;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      @include mx.phone {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      width: 70%;
+      font-size: 2rem;
+      margin: 2rem;
+      @include mx.tablet {
+        font-size: 1.5rem;
+      }
+      @include mx.phone {
+        width: 100%;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .about__img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    @include mx.tablet {
+      width: 60%;
+    }
+
+    img {
+      width: 70%;
+      border-radius: 2rem;
+      margin-left: 10rem;
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+      @include mx.tablet {
+        margin: 0 auto;
+        width: 70%;
+      }
+    }
+  }
+}
