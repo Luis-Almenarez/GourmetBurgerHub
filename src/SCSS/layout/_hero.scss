@@ -27,7 +27,6 @@
     font-family: v.$font-secundaria;
 
     @include mx.small-tablet {
-      font-family: var(--font-secundaria);
       font-size: 2rem;
     }
   }
@@ -43,10 +42,11 @@
   }
 
   .btn {
-    color: v.$color-principal;
-    background-color: v.$light;
-    border-color: v.$light-strong;
+    color: v.$dark;
+    background-color: v.$light-gold;
+    border-color: v.$light-gold;
     font-size: 2.3rem;
+    font-weight: bold;
     text-transform: uppercase;
     width: 15%;
     padding: 1.5rem;
