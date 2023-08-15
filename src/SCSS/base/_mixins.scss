@@ -24,6 +24,12 @@
   }
 }
 
+@mixin small-phone {
+  @media (max-width: v.$small-phone) {
+    @content;
+  }
+}
+
 @mixin cardProduct {
   background-size: cover;
   background-repeat: no-repeat;

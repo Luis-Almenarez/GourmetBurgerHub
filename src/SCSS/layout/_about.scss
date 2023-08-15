@@ -24,18 +24,25 @@
       @include mx.phone {
         font-size: 2rem;
       }
+      @include mx.small-phone {
+        font-size: 2rem;
+      }
     }
 
     p {
-      width: 70%;
+      width: 80%;
       font-size: 2rem;
-      margin: 2rem;
+      margin: 5rem;
       @include mx.tablet {
         font-size: 1.5rem;
       }
       @include mx.phone {
-        width: 100%;
+        width: 110%;
         font-size: 1.5rem;
+      }
+      @include mx.small-phone {
+        font-size: 1.2rem;
+        margin: 2rem;
       }
     }
   }
