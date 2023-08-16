@@ -14,7 +14,7 @@ Esta es una landing page de comidas rápidas, diseñada para mostrar diferentes 
 **Luis Almenarez**
 
 * [Linkedin](www.linkedin.com/in/luis-almenarez)
-* [Facebook](https://web.facebook.com/Luis.Carlos.AlmenarezAP)
+* [Twitter](https://twitter.com/Almeis_Dev)
 
 ## Características Destacadas
 
