@@ -3,7 +3,7 @@
 
 .main__about {
   background-color: v.$light;
-  height: 90vh;
+  min-height: 90vh;
   @include mx.tablet {
     @include mx.flexColumn;
   }
