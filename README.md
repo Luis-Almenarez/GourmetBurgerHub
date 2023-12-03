@@ -1,4 +1,4 @@
-# Gourmet Burger Hub.
+# Gourmet Burger Hub 🍔.
 
 Esta es una landing page de comidas rápidas, diseñada para mostrar diferentes opciones de hamburguesas, hotdogs y otros platos apetitosos.
 
